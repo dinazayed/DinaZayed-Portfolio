@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio website of Dina Zayed, Business Administration student at The American University in Cairo.">
+  <title>Dina Zayed | Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar" aria-label="Main navigation">
+      <a class="logo" href="#home">DZ</a>
+      <button id="themeToggle" class="theme-toggle" type="button" aria-label="Switch between dark and light mode">Dark Mode</button>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#weather">Live Weather</a></li>
+        <li><a href="#involvement">Involvement</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <div id="welcomeMessage" class="welcome-message" role="status"></div>
+        <p class="eyebrow">Personal CV &amp; Portfolio</p>
+        <h1>Dina Zayed</h1>
+        <h2>Business Administration Student | MICT &amp; Economics</h2>
+        <p class="hero-text">
+          Results-driven senior at The American University in Cairo with experience
+          in operations, travel consulting, event management, and entrepreneurship.
+        </p>
+        <div class="hero-actions">
+          <a class="button primary-button" href="#contact">Contact Me</a>
+          <a class="button secondary-button" href="https://www.linkedin.com/in/dina-zayed-801b7b383"
+             target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        </div>
+      </div>
+      <div class="profile-frame">
+        <img src="images/profile.png" alt="Profile photo of Dina Zayed">
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="section-heading">
+        <p class="section-number">01</p>
+        <div><p class="eyebrow">Profile</p><h2>About Me</h2></div>
+      </div>
+      <div class="about-card">
+        <p>
+          I am a Business Administration senior at The American University in Cairo,
+          concentrating in Management of Information and Communication Technology (MICT)
+          with a minor in Economics. I have experience in travel consulting, event
+          operations, teaching support, and entrepreneurship. My strengths include client
+          relations, project coordination, teamwork, and data-driven decision-making.
+        </p>
+        <div class="quick-facts">
+          <div><span>University</span><strong>AUC</strong></div>
+          <div><span>Graduation</span><strong>Spring 2027</strong></div>
+          <div><span>GPA</span><strong>3.54 / 4.00</strong></div>
+          <div><span>Location</span><strong>Cairo, Egypt</strong></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="education">
+      <div class="section-heading">
+        <p class="section-number">02</p>
+        <div><p class="eyebrow">Academic Background</p><h2>Education</h2></div>
+      </div>
+      <div class="card-grid">
+        <article class="card">
+          <p class="date">Expected Spring 2027</p>
+          <h3>The American University in Cairo (AUC)</h3>
+          <p class="subtitle">Bachelor of Business Administration (BBA)</p>
+          <p><strong>Concentration:</strong> Management of Information &amp; Communication Technology (MICT)</p>
+          <p><strong>Minor:</strong> Economics</p>
+          <p><strong>Relevant Coursework:</strong> Data Analysis, Marketing, Digital Transformation, Project Management</p>
+        </article>
+        <article class="card">
+          <p class="date">2013 – 2023</p>
+          <h3>New Vision International School</h3>
+          <p class="subtitle">International Baccalaureate (IB) Diploma</p>
+          <p>Completed the International Baccalaureate Diploma before beginning undergraduate studies at AUC.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="experience">
+      <div class="section-heading">
+        <p class="section-number">03</p>
+        <div><p class="eyebrow">Professional Background</p><h2>Experience &amp; Projects</h2></div>
+      </div>
+      <div class="timeline">
+        <article class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <p class="date">February 2026 – May 2026</p>
+            <h3>Operations Management Teaching Assistant</h3>
+            <p class="subtitle">School of Business, The American University in Cairo</p>
+            <ul>
+              <li>Supported undergraduate students through review sessions, office hours, and course communication.</li>
+              <li>Explained Operations Management concepts, assignments, and problem-solving methods.</li>
+              <li>Assisted with grading and coordinated classroom and administrative tasks.</li>
+              <li>Collaborated with faculty and teaching staff to support student engagement.</li>
+            </ul>
+          </div>
+        </article>
+        <article class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <p class="date">Summer 2024</p>
+            <h3>Travel Consultant</h3>
+            <p class="subtitle">Fanar Tours Company</p>
+            <ul>
+              <li>Designed customized travel itineraries for more than 20 clients.</li>
+              <li>Coordinated with more than 10 international airlines, hotels, and activity providers.</li>
+              <li>Prepared itineraries, vouchers, and tickets for smooth trip execution.</li>
+              <li>Managed logistics and safety for a guided Turkey trip involving 12 international tourists.</li>
+              <li>Conducted market research on destinations and travel trends.</li>
+            </ul>
+          </div>
+        </article>
+        <article class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <p class="date">2024 – Present</p>
+            <h3>Founder — Dress Brand</h3>
+            <p class="subtitle">Entrepreneurial Project | In Development</p>
+            <ul>
+              <li>Conducting market and competitor analysis to identify opportunities in the fashion industry.</li>
+              <li>Developing branding, packaging concepts, and supplier partnerships.</li>
+              <li>Planning digital marketing strategies for brand launch and customer acquisition.</li>
+            </ul>
+            <button id="projectToggle" class="details-button" type="button"
+                    aria-expanded="false" aria-controls="projectDetails">Show Project Details</button>
+            <div id="projectDetails" class="project-details" hidden>
+              <p>
+                This ongoing entrepreneurial project combines market research, branding,
+                supplier planning, and digital marketing to prepare the dress brand for launch.
+              </p>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="section-heading">
+        <p class="section-number">04</p>
+        <div><p class="eyebrow">Capabilities</p><h2>Skills</h2></div>
+      </div>
+      <button id="skillsToggle" class="section-toggle" type="button" aria-expanded="true" aria-controls="skillsContent">Hide Skills</button>
+      <div id="skillsContent">
+      <div class="skills-grid">
+        <article class="skill-card"><h3>Business &amp; Analytical</h3><div class="tags">
+          <span>Project Management</span><span>Market Research</span><span>Client Relations</span>
+          <span>Budget Planning</span><span>Event Coordination</span>
+        </div></article>
+        <article class="skill-card"><h3>Technical</h3><div class="tags">
+          <span>Advanced Excel</span><span>Power BI</span><span>SQL</span><span>C++</span>
+          <span>Microsoft Office</span><span>Google Workspace</span><span>Canva</span>
+        </div></article>
+        <article class="skill-card"><h3>Interpersonal</h3><div class="tags">
+          <span>Leadership</span><span>Teamwork</span><span>Communication</span>
+          <span>Problem-Solving</span><span>Adaptability</span>
+        </div></article>
+        <article class="skill-card"><h3>Languages</h3><div class="tags">
+          <span>Arabic — Native</span><span>English — Fluent</span>
+        </div></article>
+      </div>
+      </div><!-- /skillsContent -->
+    </section>
+
+    <section class="section" id="involvement">
+      <div class="section-heading">
+        <p class="section-number">05</p>
+        <div><p class="eyebrow">Campus Experience</p><h2>Leadership &amp; Involvement</h2></div>
+      </div>
+      <div class="card-grid three-columns">
+        <article class="card">
+          <p class="date">2024 – Present</p><h3>PR Committee Member</h3>
+          <p class="subtitle">SU Empower Club, AUC</p>
+          <p>Manage promotional communication and social media outreach and have led PR efforts for campus events including the AUC Film Festival and Exotics at AUC.</p>
+        </article>
+        <article class="card">
+          <p class="date">Spring 2024</p><h3>Concert Operations Team Member</h3>
+          <p class="subtitle">Student Union, AUC</p>
+          <p>Coordinated on-ground logistics and operations for concerts and campus events with more than 200 attendees.</p>
+        </article>
+        <article class="card">
+          <p class="date">Spring 2024</p><h3>Events &amp; Entertainment Committee Member</h3>
+          <p class="subtitle">TFC, AUC</p>
+          <p>Supported the planning and execution of student engagement events through cross-functional collaboration.</p>
+        </article>
+      </div>
+    </section>
+
+
+    <!-- Assignment 3: Dedicated projects portfolio, building on existing experience -->
+    <section class="section" id="projects">
+      <div class="section-heading">
+        <p class="section-number">06</p>
+        <div><p class="eyebrow">Selected Work</p><h2>Projects</h2></div>
+      </div>
+      <div class="card-grid">
+        <article class="card">
+          <p class="date">2024 – Present</p>
+          <h3>Dress Brand — Entrepreneurial Project</h3>
+          <p>Developing a fashion business through market research, brand positioning, packaging concepts, supplier partnerships, and a planned digital launch.</p>
+          <p class="subtitle">Focus: Entrepreneurship · Branding · Market Research</p>
+        </article>
+        <article class="card">
+          <p class="date">2026</p>
+          <h3>Interactive Portfolio Website</h3>
+          <p>Expanded a personal CV website into a responsive portfolio with JavaScript interactions and live weather data from a public API.</p>
+          <p class="subtitle">Tools: HTML · CSS · JavaScript · REST API</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Assignment 3: Public external API data displayed with JavaScript -->
+    <section class="section" id="weather">
+      <div class="section-heading">
+        <p class="section-number">07</p>
+        <div><p class="eyebrow">Live API Integration</p><h2>Weather in Cairo</h2></div>
+      </div>
+      <div class="weather-card">
+        <div>
+          <p class="weather-location">Cairo, Egypt</p>
+          <p class="weather-description">Live weather conditions powered by Open-Meteo.</p>
+          <p id="weatherStatus" class="weather-status" role="status" aria-live="polite">Loading weather data...</p>
+          <div id="weatherResult" class="weather-result" hidden>
+            <span id="weatherIcon" class="weather-icon" role="img" aria-label="Weather icon">☀️</span>
+            <div>
+              <p id="weatherTemperature" class="weather-temperature"></p>
+              <p id="weatherCondition" class="weather-condition"></p>
+              <p id="weatherUpdated" class="weather-updated"></p>
+            </div>
+          </div>
+        </div>
+        <div class="weather-actions">
+          <button id="refreshWeather" class="button primary-button" type="button">Refresh Weather</button>
+          <a href="https://open-meteo.com/" target="_blank" rel="noopener noreferrer" class="weather-credit">Weather data: Open-Meteo</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="contact-card">
+        <div>
+          <p class="eyebrow">Get In Touch</p>
+          <h2>Contact Information</h2>
+          <p>Feel free to contact me by email or connect with me on LinkedIn.</p>
+        </div>
+        <div>
+          <div class="contact-links">
+            <a href="mailto:dinazayed24@gmail.com">dinazayed24@gmail.com</a>
+            <a href="mailto:dinazayed_@aucegypt.edu">dinazayed_@aucegypt.edu</a>
+            <a href="https://www.linkedin.com/in/dina-zayed-801b7b383"
+               target="_blank" rel="noopener noreferrer">LinkedIn Profile</a>
+          </div>
+
+          <form id="contactForm" class="contact-form" novalidate>
+            <h3>Send a Message</h3>
+
+            <label for="contactName">Name</label>
+            <input id="contactName" name="name" type="text" placeholder="Your name">
+            <small id="nameError" class="form-error"></small>
+
+            <label for="contactEmail">Email</label>
+            <input id="contactEmail" name="email" type="email" placeholder="you@example.com">
+            <small id="emailError" class="form-error"></small>
+
+            <label for="contactMessage">Message</label>
+            <textarea id="contactMessage" name="message" rows="4" placeholder="Write your message"></textarea>
+            <small id="messageError" class="form-error"></small>
+
+            <button class="form-button" type="submit">Send Message</button>
+            <p id="formStatus" class="form-status" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer><p>&copy; 2026 Dina Zayed. Portfolio Website.</p></footer>
+  <script src="script.js"></script>
+</body>
+</html>
